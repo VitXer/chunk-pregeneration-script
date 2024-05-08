@@ -31,7 +31,7 @@ while x <= x2:
         print(f"/tp @p {x} {y} {z}")
         pyautogui.press('enter')
 
-        time.sleep(float(delay))
+        time.sleep(float(delay)+0.1)
 
         z += dist
     x += dist
